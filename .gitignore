@@ -1,0 +1,25 @@
+# Terraform working files
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Saved plans
+tfplan
+*.tfplan
+*.plan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local variable files
+*.tfvars
+*.tfvars.json
+
+# Secrets
+.env
+*.pem
+*.key
